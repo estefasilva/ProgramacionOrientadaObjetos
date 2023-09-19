@@ -7,13 +7,13 @@ public class Usuario {
     Scanner sc = new Scanner(System.in);
     //primero creamos los atributos encapsulados con private
 
-    private int id;
-    private String nombre;
-    private String apellido;
-    private String correo;
-    private String contrasena;
-    private String direccion;
-    private String telefono;
+    protected int id;
+    protected String nombre;
+    protected String apellido;
+    protected String correo;
+    protected String contrasena;
+    protected String direccion;
+    protected String telefono;
 
     //vamos a crear nuestro metodo constructor
 
@@ -87,6 +87,7 @@ public class Usuario {
     //metodos
 
     public void registrarUsuario(){
+        System.out.println("soy el usuario");
         System.out.println("Ingrese su id: ");
         this.id = sc.nextInt(); //this es un operador que hace referencia a un
         sc.skip("\n");

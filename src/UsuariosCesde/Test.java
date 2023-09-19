@@ -15,11 +15,32 @@ public class Test {
 
         System.out.println(nicolas.getNombre());*/
 
-        nicolas.registrarUsuario();
+        /*nicolas.registrarUsuario();
         System.out.println(nicolas.toString());
-        nicolas.iniciarSesion();
+        nicolas.iniciarSesion();*/
 
         Estudiante estudiante= new Estudiante();
+
+        estudiante.setNombre("Pepito");
+
+        System.out.printf(estudiante.getNombre());
+
+        Empleado empleado = new Empleado();
+
+        empleado.setNombre("Maria");
+
+        System.out.println(empleado.getNombre());
+
+        Usuario estSoftware = new Estudiante();
+        Usuario empProfesor = new Empleado();
+        System.out.println(empProfesor.getClass());
+
+        estudiante.registrarUsuario();
+        estudiante.toString();
+        estudiante.iniciarSesion();
+        estSoftware.registrarUsuario();
+
+
 
 
 

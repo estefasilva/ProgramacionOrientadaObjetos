@@ -3,7 +3,7 @@ package UsuariosCesde;
 public class Test {
     public static void main(String[] args) {
 
-        Usuario usuario = new Usuario();//hemos creado una instancia de la clase Usuario
+       /* Usuario usuario = new Usuario();//hemos creado una instancia de la clase Usuario
         Usuario usuarioPepito = new Usuario();
         Usuario nicolas = new Usuario();
 /*
@@ -19,7 +19,7 @@ public class Test {
         System.out.println(nicolas.toString());
         nicolas.iniciarSesion();*/
 
-        Estudiante estudiante= new Estudiante();
+       /* Estudiante estudiante= new Estudiante();
 
         estudiante.setNombre("Pepito");
 
@@ -38,7 +38,7 @@ public class Test {
         estudiante.registrarUsuario();
         estudiante.toString();
         estudiante.iniciarSesion();
-        estSoftware.registrarUsuario();
+        estSoftware.registrarUsuario();*/
 
 
 
